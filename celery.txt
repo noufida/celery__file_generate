@@ -1,0 +1,8 @@
+for triggering the view function which calls the celery task called generate_file:
+http://127.0.0.1:8000/file/generate_file/<str:filename>/<int:data_count>/  
+
+
+when this request reaches django, it triggers the function "file" in the app called "file".
+The function calls celery task which recieves file name and count of data as arguments.
+Celery task generate a csv file with specified number of rows with random datas and file named as recieved file name.
+Thus django return some response to user quickly.
