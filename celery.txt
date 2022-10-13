@@ -6,3 +6,5 @@ when this request reaches django, it triggers the function "file" in the app cal
 The function calls celery task which recieves file name and count of data as arguments.
 Celery task generate a csv file with specified number of rows with random datas and file named as recieved file name.
 Thus django return some response to user quickly.
+
+Celery logs(task id,status, arguments) can be seen in table called "task result" in django admin panel.
