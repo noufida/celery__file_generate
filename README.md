@@ -8,7 +8,7 @@ This is a sample project with a celery task to generate csv file.
 
 To get started you can simply clone this celery__file_generate repository and install the dependencies.
 
-Clone the ecommerce-demo repository using git:
+Clone the repository using git:
 
 ```bash
 https://github.com/noufida/celery__file_generate.git
