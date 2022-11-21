@@ -11,7 +11,7 @@ To get started you can simply clone this celery__file_generate repository and in
 Clone the repository using git:
 
 ```bash
-https://github.com/noufida/celery__file_generate.git
+git clone https://github.com/noufida/celery__file_generate.git
 cd celery__file_generate
 ```
 Then install the dependencies:
